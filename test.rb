@@ -11,7 +11,7 @@ dir = gets.chomp
 
 if payload != nil
 	puts "Uploading payload from #{payload} to Windows folder #{dir}"
-	upload #{payload}
+	console.write(testing)
 else
-	puts "Error: No payload selected"
+	puts "Error! No payload selected"
 end
